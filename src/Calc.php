@@ -18,7 +18,7 @@ class Calc {
     function div($a, $b)
     {
 	if($b === 0) {
-	    return "エラー"
+	    return "エラー";
 	}
 	return $a / $b;
     }
