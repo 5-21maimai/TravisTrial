@@ -30,5 +30,11 @@ class CalcTest extends TestCase
 	$this->assertEquals($calc->div(6,2),3);
 
     }
+
+    public function testErrorDiv()
+    {
+	$calc = new Calc();
+	$this->assertEquals($calc->div(6,0),"エラー")
+    }
 }
 ?>
