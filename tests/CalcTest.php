@@ -23,5 +23,12 @@ class CalcTest extends TestCase
 	$calc = new Calc();
 	$this->assertEquals($calc->mul(3,2),6);
     }
+    
+    public function testDiv()
+    {
+	$calc = new Calc();
+	$this->assertEquals($calc->div(6,2),3);
+
+    }
 }
 ?>
