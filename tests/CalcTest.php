@@ -34,7 +34,7 @@ class CalcTest extends TestCase
     public function testErrorDiv()
     {
 	$calc = new Calc();
-	$this->assertEquals($calc->div(6,0),"エラー")
+	$this->assertEquals($calc->div(6,0),"エラー");
     }
 }
 ?>
