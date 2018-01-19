@@ -36,5 +36,11 @@ class CalcTest extends TestCase
 	$calc = new Calc();
 	$this->assertEquals($calc->div(6,0),"エラー");
     }
+    
+    public function testIndex()
+    {
+	$calc = new Calc();
+	$this->assertEquals($calc->index(5),25);
+    }
 }
 ?>

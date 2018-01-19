@@ -22,4 +22,9 @@ class Calc {
 	}
 	return $a / $b;
     }
+
+    function index($a)
+    {
+	return $a * $a;
+    }
 }
